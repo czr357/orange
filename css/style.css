@@ -18530,7 +18530,12 @@ h6.uppercase,
 	text-align: left;
 }
 
-.container.tours-list img {}
+.container.tours-list img {
+	margin: 0;
+	width: 285px;
+	height: 180px;
+	object-fit: cover;
+}
 
 .section.hotel h3 {
 	padding-top: 40px;
@@ -18589,23 +18594,36 @@ table.focus td a {
 
 }
 
-.best-offers .box-offer{
+.best-offers .box-offer {
 	width: 100%;
 }
 
-.best-offers .box-offer img{
+.best-offers .box-offer img {
 	width: 100%;
 	height: 280px;
 	object-fit: cover;
 }
 
-.best-offers .box-offer .box-offer-caption .pull-left{
+.best-offers .box-offer .box-offer-caption .pull-left {
 	float: none;
 }
 
-.best-offers .box-offer .box-offer-caption a{
+.best-offers .box-offer .box-offer-caption a {
 	display: block;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+}
+
+.container.index-top {
+	color: #fff;
+}
+
+.container.index-top h3 {
+	margin-top: 10px;
+	color: #fff;
+}
+
+.rd-navbar-fixed .rd-navbar-nav .rd-navbar-submenu-toggle::after {
+	content: none !important;
 }
