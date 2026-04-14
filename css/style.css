@@ -18383,6 +18383,10 @@ h3 {
 	line-height: 40px;
 }
 
+h3.smaller{
+	font-size: 28px;
+}
+
 h4 {
 	font-size: 24px;
 	line-height: 32px;
@@ -18419,6 +18423,10 @@ h6,
 	h3 {
 		font-size: 24px;
 		line-height: 32px;
+	}
+
+	h3.smaller{
+		font-size: 22px;
 	}
 
 	h4 {
@@ -18624,6 +18632,14 @@ table.focus td a {
 	color: #fff;
 }
 
+.container.index-top .button-primary{
+	margin-top: 60px;
+}
+
 .rd-navbar-fixed .rd-navbar-nav .rd-navbar-submenu-toggle::after {
 	content: none !important;
+}
+
+.container.tour-itinerary .box-program-content .text-small{
+	font-size: 16px;
 }
